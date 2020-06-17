@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Evaluation - AIPAL</title>
+        <link rel="stylesheet", type="text/css", href="navigation.css">
+        <link rel="stylesheet", type="text/css", href="content.css">
+        <script src="navigation.js"></script>
+        <script src="content.js"></script>
+    </head>
+    <body onload="show()">
+        <div id="nav-search">
+            <div id="navigation">
+                <b>AIPAL</b>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#problem">Problem</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#evaluation">Evaluation</a></li>
+                    <li><a href="#reference">Reference</a></li>
+                </ul>
+                <button type="button" onclick="toSearch()"><img src="icons/search.svg" alt="search"></button>
+            </div>
+        </div>
+        <div id="brief" style="background-image: url(images/wheelchair.jpg)">
+            <div id="brief-text">
+                <h1>Evaluation</h1>
+                <p title="brief">
+                    An Ethnic, safe, sustainable and practical approach
+                </p>
+            </div>
+        </div>
+        <div id="content">
+            <div class="text">
+                <h2>Ethics</h2>
+                <p>
+                Although the limb will inevitably collect a lot of data from users, such as what he is currently thinking and his recordings of his daily life, I will implement sufficient protective measures to ensure the safety of user data in both transmission and storage. I will also hire several third party organisations to monitor how I use the user data. At the same time, another ethical issue is that the limb may be even stronger that human inutely have. This is particularly concerning in events like sport and playing musical instruments, which gives my user unfair advantage. To prevent this, the capacity of limb will be divised as just as good as the old one.
+                </p>
+                <hr>
+                <h2>Risk</h2>
+                <p>
+                A metal limb post a risk to safety of other people around the user, as if he punches someone he can cause significant severer damage. This will be addresses by shut down the limb automatically when signals of extreme negative emotion is received.
+                </p>
+                <hr>
+                <h2>Sustainability</h2>
+                <p>
+                   The limb will be constructed with environmentally and human-body friendly materials, such as recycleable titanium. However, the limb may cause more fossil fuel consumption which can be ascribied to its electricity power source. On the other hand, the financial prospectus of this project is expected to be promising considering the huge demand which has been in the "Problem" page. 
+                </p>
+                <hr>
+                <h2>Potential</h2>
+                <p>
+                An AI powered artificial limb may be the first step towards saving people with uncurable diseases, such as cancer, and augmented human who are more suitable to perform dangerous duty, such as law enforcement, and even fight against robots if an evil AI is created by accident. 
+                </p>
+            </div>
+            <div id="img-gallery">
+                <div id=img-count></div>
+                <div class="img-container">
+                    <img class="img" src="images/ethics.jpg" alt="Transparency, regulation are some of major ethical concerns about AI">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/robocop.jpg" alt="In the franchise Robocop, the main character is a half-robot and half-human, with destructive power">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/robot-playing-music.jpg" alt="A robot developed by Toyoto. ALso a master of trumpet">
+                </div>
+                <button id="prev" onclick="prev()">&#8592;prev</button>
+                <button id="next" onclick="next()">next&#8594;</button>
+                <div id="caption"><p></p></div>
+            </div>
+        </div>
+    </body>
+</html>

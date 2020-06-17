@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Problem - AIPAL</title>
+        <link rel="stylesheet", type="text/css", href="navigation.css">
+        <link rel="stylesheet", type="text/css", href="content.css">
+        <script src="navigation.js"></script>
+        <script src="content.js"></script>
+    </head>
+    <body onload="show()">
+        <div id="nav-search">
+            <div id="navigation">
+                <b>AIPAL</b>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#problem">Problem</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#evaluation">Evaluation</a></li>
+                    <li><a href="#reference">Reference</a></li>
+                </ul>
+                <button type="button" onclick="toSearch()"><img src="icons/search.svg" alt="search"></button>
+            </div>
+        </div>
+        <div id="brief" style="background-image: url(images/wheelchair.jpg)">
+            <div id="brief-text">
+                <h1>PROBLEM</h1>
+                <p title="brief">
+                    Millions of amputation patients need more flexible artificial limbs
+                </p>
+            </div>
+        </div>
+            <div class="text">
+                <p>
+                How might we help people with disability, especially people who have lost their arms, to make them thrive again like healthy human being? They should be able to enjoy their daily life, play sport, use computer and other smart devices like people around them. It is not their fault to being short of arm because of predisposition, very rare diseases, severe infections and accidents. This problem must be addressed. In 2008, there were 10 million people have their arms being surgically removed worldwide. [1]  After the surgery, every aspects of their lives will be affects. [2] In particular, study shows that people on average spend 40mins on imaging using their amputated limb. [4] This indicates how much they miss them and how many troubles they are experiencing.  
+                </p>
+            </div>
+            <div id="img-gallery">
+                <div id=img-count></div>
+                <div class="img-container">
+                    <img class="img" src="images/disability-celebrity.jpg" alt="Nick Vujicic is a famous motivational speaker born without arms and legs">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/artificial_limb.jpg" alt="The pothetic alternative available now requires extra force and movement to use it">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/artificial_hand.jpg" alt="Exsisted artificial hand are just for cosmetic purpose; You cannot really move the fingers.">
+                </div>
+                <button id="prev" onclick="prev()">&#8592;prev</button>
+                <button id="next" onclick="next()">next&#8594;</button>
+                <div id="caption"><p></p></div>
+            </div>
+    </body>
+</html>

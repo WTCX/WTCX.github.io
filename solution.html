@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Solution - AIPAL</title>
+        <link rel="stylesheet", type="text/css", href="navigation.css">
+        <link rel="stylesheet", type="text/css", href="content.css">
+        <script src="navigation.js"></script>
+        <script src="content.js"></script>
+    </head>
+    <body onload="show()">
+        <div id="nav-search">
+            <div id="navigation">
+                <b>AIPAL</b>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#problem">Problem</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#evaluation">Evaluation</a></li>
+                    <li><a href="#reference">Reference</a></li>
+                </ul>
+                <button type="button" onclick="toSearch()"><img src="icons/search.svg" alt="search"></button>
+            </div>
+        </div>
+        <div id="brief" style="background-image: url(images/ai.jpg)">
+            <div id="brief-text">
+                <h1>Solution</h1>
+                <p title="brief">
+                    An AI powered artificial alternative
+                </p>
+            </div>
+        </div>
+        <div id="content">
+            <div class="text">
+                <p>
+                Artificial alternatives available, despite the ability to help the patient regain a some of the mobility, are much more less flexible and efficient than what human naturally have.  It can take between 6 to 12 months to adjust to the new limb [3], and that is far too long. For people whose arms are removed, an metal arm is not a choice as their brain cannot send message to their "fingers" and control them.
+                </p>
+                <p>
+                A better solution can be provided by using artificial intelligence. More specifically, an AI model that can interpret electrical impulses from the brain, convert the instruction into action, and provide feedback back to the control center, like a normal but yet more powerful limb. The system will consist of a receptor, engines, a processor, an electrical impulse generator, and sensors on the limb. Meanwhile, an AI will be trained to understand the message and initiate a feedback back to the nervous system. The training will be accomplished with sets of diverse data of brain activity collected from health population. Each data will be labelled with associated intension, categorized, simplified to pursue a between training outcome. The AI will attempt to predict the action, and compares it with the correct labelled answer, before it improve its performance and ultimately recognize pattens related to individual action. This may not be done in a single effort, insdead the pipeline can divide a long impulse into several segments and apply predictions on each of them, after it  has filtered and transformed the signal as this may make it easier for it to interpret this.
+                </p>
+            </div>
+            <div id="img-gallery">
+                <div id=img-count></div>
+                <div class="img-container">
+                    <img class="img" src="images/iron-man.jpg" alt="In the Marvel's movies, Iron Man is a character that can control his metal armor with his AI 'Friday'">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/stephen-harking.jpg" alt="Stephen Hawking is a renown physicist with disability, but he can still express his idea with a set of instruments installed on his wheelchair, which can transform his brain signal into speech">
+                </div>
+                <div class="img-container">
+                    <img class="img" src="images/wheelchair.png" alt="caption1">
+                </div>
+                <button id="prev" onclick="prev()">&#8592;prev</button>
+                <button id="next" onclick="next()">next&#8594;</button>
+                <div id="caption"><p></p></div>
+            </div>
+        </div>
+    </body>
+</html>

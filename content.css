@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+}
+
+#brief {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-position: center;
+}
+
+#brief {
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: lighten;
+}
+
+#brief-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+#img-gallery {
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#
+
+#prev, #next {
+    font-size: 20px;
+}
+
+
+.img {
+    display: none;
+    max-height: 30%;
+    max-width: 30%;
+    margin: auto
+}
+
+#img-count {
+    background-color: black;
+    color: white
+}
+
+.text {
+    padding-top: 100px
+}
+
+.intro {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(211,211,211,0.8)
+    
+}
+
+.intro img {
+    max-height: 50%;
+    max-width: 50%;
+    vertical-align: middle
+}
+
+
+.intro div {
+    display: inline-block;
+}
+
+div.intro-left {
+    overflow: hidden;
+}
+
+div.intro-text-left {
+    padding-top: 10%; 
+    padding-left: 10%
+}
+
+img.intro-img-right {
+    float: right
+}
+#share {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#share a {
+    display: block;
+}
+
+#share a img {
+    height: 50px;
+    background-color: white
+}
+
+#caption p {
+    text-align: left
+}
+
+.facebook:hover {
+}

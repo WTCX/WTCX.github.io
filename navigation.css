@@ -1,0 +1,106 @@
+#nav-search {
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+
+#navigation {
+    border: 1px solid black;
+    background-color: white
+}
+
+#navigation b {
+    font-size: 50px;
+}
+
+#navigation img {
+    width: 50px;
+    height: 50px;
+}
+
+#navigation button {
+    float: right;
+    margin-right: 50px
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+#navigation ul li {
+    float: left;
+}
+
+#navigation ul li a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-weight: bold;
+}
+
+#navigation ul li a:active {
+    background-color: skyblue
+}
+
+#search-bar {
+    text-align: center;
+    border: 1px solid black;
+    background-color:white
+}
+
+
+#search-bar img {
+    width: 50px;
+    height: 50px;
+}
+
+#search-bar input {
+    font-size: 20px
+}
+
+.content {
+    padding-top: 60px; 
+    overflow: hidden
+}
+
+#suggestions {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px
+}
+
+#suggestions ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#suggestions li a {
+  border: 1px solid black;
+  margin-top: -1px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block
+}
+
+#suggestions li a:hover {
+    background-color: lightgray
+}
+
+#google_translate_element {
+    margin-top: 50px;
+    float: right
+}
