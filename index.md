@@ -2,10 +2,10 @@
 <html lang="en-US">
     <head>
         <title>Home - AIPAL</title>
-        <link rel="stylesheet", type="text/css", href="navigation.css">
-        <link rel="stylesheet", type="text/css", href="content.css">
-        <script src="navigation.js"></script>
-        <script src="content.js"></script>
+        <link rel="stylesheet", type="text/css", href="https://wtcx.github.io/navigation.css">
+        <link rel="stylesheet", type="text/css", href="https://wtcx.github.io/content.css">
+        <script src="https://wtcx.github.io/navigation.js"></script>
+        <script src="https://wtcx.github.io/content.js"></script>
     </head>
     <body>
         <div id="nav-search">
