@@ -27,11 +27,11 @@ function toNav() {
             <div id="navigation"> \
                 <b>AIPAL</b> \
                 <ul> \
-                    <li><a href="#home">Home</a></li> \
-                    <li><a href="#problem">Problem</a></li> \
-                    <li><a href="#solution">Solution</a></li> \
-                    <li><a href="#evaluation">Evaluation</a></li> \
-                    <li><a href="#reference">Reference</a></li> \
+                    <li><a href="index.html">Home</a></li> \
+                    <li><a href="problem.html">Problem</a></li> \
+                    <li><a href="solution.html">Solution</a></li> \
+                    <li><a href="evaluation.html">Evaluation</a></li>\
+                    <li><a href="reference.html">Reference</a></li> \
                 </ul> \
                 <button type="button" onclick="toSearch()"><img src="icons/search.svg" alt="search"></button> \
             </div> \
